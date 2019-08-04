@@ -1,0 +1,15 @@
+server:
+  servlet:
+    context-path: /boy
+  port: 8080
+
+cupSize: B
+name: 王梦丽
+age: 23
+
+content: "name: ${cupSize} age: ${age}"
+
+girl:
+  name: 林志玲
+  age: 55
+  cupSize: F
